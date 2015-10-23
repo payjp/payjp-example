@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'sinatra/reloader'
 require 'payjp'
 
 set :secret_key, ENV['SECRET_KEY']
