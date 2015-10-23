@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+  <form action="/pay" method="post">
+    <article>
+      <label>1000円のお支払い</label>
+    </article>
+
+    <script type="text/javascript" src="https://checkout.pay.jp" class="payjp-button" data-key="{{ public_key }}"></script>
+  </form>
+{% endblock %}
