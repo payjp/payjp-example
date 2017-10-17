@@ -7,7 +7,7 @@ set :public_key, ENV['PUBLIC_KEY']
 Payjp.api_key = settings.secret_key
 
 configure do
-  set :erb, escape_html: true
+  set :erb, escape_html: false
 end
 
 get '/' do
